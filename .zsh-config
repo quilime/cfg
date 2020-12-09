@@ -56,7 +56,7 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias df='df -h'                                                # Human-readable sizes
 alias free='free -m'                                            # Show sizes in MB
-alias config='/usr/bin/git --git-dir=/home/quilime/.cfg/.git/ --work-tree=/home/quilime'
+alias cfg='/usr/bin/git --git-dir=/home/quilime/.cfg/.git/ --work-tree=/home/quilime'
 alias ls='ls --color'
 
 
