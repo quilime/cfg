@@ -1,1 +1,2 @@
 alias config='/usr/bin/git --git-dir=/home/quilime/.cfg/.git/ --work-tree=/home/quilime'
+alias ls='ls --color'
