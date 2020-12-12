@@ -6,6 +6,8 @@
 ;; backup in one place. flat, no file structure
 (setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
 
+(global-font-lock-mode 1)
+(setq font-lock-maximum-decoration t)
 
 ;; neotree
 ;; https://github.com/jaypei/emacs-neotree
