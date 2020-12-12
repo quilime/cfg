@@ -1,3 +1,6 @@
 [submodule ".emacs.d/plugins/neotree"]
 	path = .emacs.d/plugins/neotree
 	url = https://github.com/jaypei/emacs-neotree
+[submodule ".vim/pack/vendor/start/nerdtree"]
+	path = .vim/pack/vendor/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
