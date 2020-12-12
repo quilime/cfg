@@ -45,3 +45,5 @@ the path to the Git directory,  $HOME/.cfg/ for bare and $HOME/.cfg/.git/ for no
 - https://www.atlassian.com/git/tutorials/dotfiles
 - https://bitbucket.org/durdn/cfg/src/master/
 - https://news.ycombinator.com/item?id=11070797
+- https://shapeshed.com/vim-netrw/#netrw---the-unloved-directory-browser
+
