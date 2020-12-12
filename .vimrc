@@ -17,8 +17,8 @@ set hlsearch incsearch
 set gdefault
 " not wrap lines
 set nowrap
-" show line numbers
-set nu
+" show line numbers ( ':set nu!' to toggle )
+" set nu
 " enable mouse in all modes
 set mouse=a
 " show cursor position
@@ -35,7 +35,7 @@ set showcmd
 "  set colorcolumn=80 
 " show hidden files in nerdtree
 
-" use ctrl +jkhl ti navigate panes
+" use ctrl +jkhl to navigate panes
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
