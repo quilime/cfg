@@ -42,8 +42,9 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 " Centralize backups, swapfiles and undo history
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+set backup
+set backupdir=~/.vim/backups//
+set directory=~/.vim/swaps//
 if exists("&undodir")
     set undodir=~/.vim/undo
 endif
