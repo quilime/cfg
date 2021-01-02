@@ -1,10 +1,10 @@
 # Vim Cheatsheet
 
 After using Emacs exclusively for years as my main editor, I was interested in
-learning Vim, at least enough to have parity with what I was familiar with in
-Emacs. Things like buffers/tabs, selecting blocks of text, copying and pasting,
-loading files, and project trees were all something I was familiar how to do in
-Emacs but I was completely lost in Vim.
+learning Vim, at least enough features to have parity with what I was familiar
+with in Emacs. Features like buffers/tabs, selecting blocks of text, copying and
+pasting, loading files while the editor is still open, and browsing file trees
+are all things I knew how to do in Emacs, but I was completely lost in Vim!
 
 I have used many Vim cheatsheets to learn, and found it helpful to create my
 own. If you create your own cheatsheat, use Vim to create it.
@@ -13,10 +13,10 @@ own. If you create your own cheatsheat, use Vim to create it.
 
   - Location: `~/.vimrc.`
 
-Disable cursor keys for noobs. Forces you to use `h j k l` for movement. (Cursor keyes still work in Insert mode)
+Disable cursor keys for noobs. Forces you to use `h j k l` for movement. Note: Cursor keys still work in Insert mode
 
 ```
-" remove cursor keys
+" disable cursor keys
 noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
