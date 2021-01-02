@@ -1,10 +1,10 @@
 # Vim Cheatsheet
 
 After using Emacs exclusively for years as my main editor, I was interested in
-learning VIM, at least enough to have parity with what I was familiar with in
+learning Vim, at least enough to have parity with what I was familiar with in
 Emacs. Things like buffers/tabs, selecting blocks of text, copying and pasting,
 loading files, and project trees were all something I was familiar how to do in
-Emacs but I was completely lost in VIM.
+Emacs but I was completely lost in Vim.
 
 I have used many Vim cheatsheets to learn, and found it helpful to create my
 own. If you create your own cheatsheat, use Vim to create it.
