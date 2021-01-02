@@ -36,6 +36,8 @@ noremap <Right> <Nop>
 
 ## Visual Mode
 
+  When in Visual mode, use movement keys to select blocks of text.
+
   - `v` - Enter `v`isual mode
   - `d` - `d`elete. Like "ctrl-x - cut", puts text in clipboard
   - `y` - `y`ank. Like "ctrl-c - copy", puts text in clipbaord
