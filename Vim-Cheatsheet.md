@@ -11,9 +11,9 @@ own. If you create your own cheatsheat, use Vim to create it.
 
 ## Config
 
-  - For Vim: `~/.vimrc.`
+  - Location: `~/.vimrc.`
 
-Disable cursor keys. (They will still work in Insert mode)
+Disable cursor keys for noobs. Forces you to use `h j k l` for movement. (Cursor keyes still work in Insert mode)
 
 ```
 " remove cursor keys
