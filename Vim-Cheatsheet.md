@@ -80,6 +80,7 @@ Vim cheatsheet references
 
   - [Vim for Beginners](https://thevaluable.dev/vim-for-beginners/)
   - [Vim for Intermediate Users](https://thevaluable.dev/vim-intermediate/)
+  - [netrw](https://shapeshed.com/vim-netrw/)
 
 ## Vim & Neovim
 
