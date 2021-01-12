@@ -70,7 +70,7 @@ noremap <Right> <Nop>
   - `gt` - `g`o `t`o next tab
   - `gT` - `g`o `T`o previous tab
 
-###
+### Panes
 
   - `<ctrl> + w + w` - Switch Panes
 
