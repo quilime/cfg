@@ -48,6 +48,14 @@ noremap <Right> <Nop>
 
   - `dd` - `dd`elete line (places line in clipboard)
 
+### Navigating
+
+  - characters — `h j k l`
+  - words — `w W b B e E`
+  - lines — `0 $`
+  - sentences — `( )`
+  - and paragraphs — `{ }`
+
 ### Files
 
   - `:e` or `:edit` - Edit (open) new file in current buffer
