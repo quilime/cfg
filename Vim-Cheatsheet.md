@@ -27,6 +27,7 @@ noremap <Right> <Nop>
 ## Insert Mode
 
   - `i` - `i`nsert content before selected char
+  - `I` - `I`nsert content at the beginning of the line
   - `a` - Insert content `a`fter select char
   - `A` - Insert content `A`fter last char on line
   - `o` - `o`pen new line below current
