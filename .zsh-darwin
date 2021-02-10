@@ -3,9 +3,8 @@
 PROMPT='%F{cyan}%n@%m%f %F{240}%1~%f %# '
 RPROMPT='%F{240}%*%f'
 
-
 # aliases
-alias cfg='/usr/bin/git --git-dir=/Users/gld/.cfg/.git/ --work-tree=/Users/gld'
+alias cfg='/usr/bin/git --git-dir=/Users/gld/.cfg/ --work-tree=/Users/gld'
 alias ls='ls -G'
 alias cats='highlight -O ansi --force'
 
