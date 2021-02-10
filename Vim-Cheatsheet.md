@@ -27,6 +27,7 @@ noremap <Right> <Nop>
 ## Insert Mode
 
   - `i` - `i`nsert content before selected char
+  - `I` - `I`nsert content at the beginning of the line
   - `a` - Insert content `a`fter select char
   - `A` - Insert content `A`fter last char on line
   - `o` - `o`pen new line below current
@@ -46,6 +47,14 @@ noremap <Right> <Nop>
 ## Normal Mode Commands
 
   - `dd` - `dd`elete line (places line in clipboard)
+
+### Navigating
+
+  - characters — `h j k l`
+  - words — `w W b B e E`
+  - lines — `0 $`
+  - sentences — `( )`
+  - and paragraphs — `{ }`
 
 ### Files
 
