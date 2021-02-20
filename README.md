@@ -12,7 +12,7 @@ the path to the Git directory,  $HOME/.cfg/ for bare and $HOME/.cfg/.git/ for no
 2. alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
 3. echo "alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'" >> $HOME/.zsh/aliases
 4. cfg config --local status.showUntrackedFiles no
-5. cfg add .vimrc + config commit -m "add .vimrc" + Set up a remote repository on GitHub or your Git server of choice + config push
+5. cfg add .vimrc + cfg commit -m "add .vimrc" + Set up a remote repository on GitHub or your Git server of choice + cfg push
 
 ### Install
 
@@ -25,7 +25,7 @@ the path to the Git directory,  $HOME/.cfg/ for bare and $HOME/.cfg/.git/ for no
 ### Using a bare repository
 
 1. git init --bare $HOME/.cfg
-2. alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+2. alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 3. echo "alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zsh/aliases
 4. cfg config --local status.showUntrackedFiles no
 5. cfg add .vimrc + cfg commit -m "add .vimrc" + set up a remote repository on GitHub or your Git server of choice + cfg push
