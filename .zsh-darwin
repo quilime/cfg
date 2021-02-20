@@ -7,10 +7,14 @@ RPROMPT='%F{240}%*%f'
 alias cfg='/usr/bin/git --git-dir=/Users/gld/.cfg/ --work-tree=/Users/gld'
 alias ls='ls -G'
 alias cats='highlight -O ansi --force'
+alias x86='arch -x86_64 zsh' # Start Shell in Rosetta 22
 
 # sublime text
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
-# brew
-eval export HOMEBREW_PREFIX="/opt/homebrew"; export HOMEBREW_CELLAR="/opt/homebrew/Cellar"; export HOMEBREW_REPOSITORY="/opt/homebrew"; export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}"; export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:"; export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
-eval $(/opt/homebrew/bin/brew shellenv)
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
