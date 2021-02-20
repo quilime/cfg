@@ -7,7 +7,7 @@ RPROMPT='%F{240}%*%f'
 alias cfg='/usr/bin/git --git-dir=/Users/gld/.cfg/ --work-tree=/Users/gld'
 alias ls='ls -G'
 alias cats='highlight -O ansi --force'
-alias x86='arch -x86_64 zsh' # Start Shell in Rosetta 22
+alias x86='arch -x86_64 zsh' # Start Shell in Rosetta 2 (M1 Macs)
 
 # sublime text
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
