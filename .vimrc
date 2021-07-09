@@ -1,14 +1,17 @@
 filetype plugin indent on
 
+" automatically read file changes
+" set autoread
+" :checktime
 " syntax highlighting
 syntax on
 set encoding=utf-8
 " don't beep
 set noerrorbells
 " visual bell
-"set visualbell 
+"set visualbell
 "setup default tab/shift/expand
-set tabstop=4 shiftwidth=4 expandtab 
+set tabstop=4 shiftwidth=4 expandtab
 " Highlight current line
 "set cursorline
 " hightlight search and incremental seach
@@ -32,7 +35,7 @@ set showcmd
 " set list
 
 " draw vertical column at 80
-"  set colorcolumn=80 
+"  set colorcolumn=80
 " show hidden files in nerdtree
 
 " use ctrl +jkhl to navigate panes

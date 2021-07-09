@@ -8,13 +8,26 @@ alias cfg='/usr/bin/git --git-dir=/Users/gld/.cfg/ --work-tree=/Users/gld'
 alias ls='ls -G'
 alias cats='highlight -O ansi --force'
 alias x86='arch -x86_64 zsh' # Start Shell in Rosetta 2 (M1 Macs)
+alias dl='youtube-dl'
+alias hf='defaults write com.apple.finder AppleShowAllFiles false; killall Finder' # hide hidden
+alias shf='defaults write com.apple.finder AppleShowAllFiles true; killall Finder' # show hidden
 
-# sublime text
+# if x86, show in prompt
+if [ `arch` = "i386" ];
+then
+    PROMPT=$PROMPT"[x86] "
+fi
+
+# sublime
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
+# homebrew
+eval $(/opt/homebrew/bin/brew shellenv)
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
+# ruby
+export PATH="/Users/gld/.gem/ruby/3.0.0/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH"
