@@ -8,7 +8,7 @@ alias cfg='/usr/bin/git --git-dir=/Users/gld/.cfg/ --work-tree=/Users/gld'
 alias ls='ls -G'
 alias cats='highlight -O ansi --force'
 alias x86='arch -x86_64 zsh' # Start Shell in Rosetta 2 (M1 Macs)
-alias dl='youtube-dl'
+alias dl='yt-dlp'
 alias hf='defaults write com.apple.finder AppleShowAllFiles false; killall Finder' # hide hidden
 alias shf='defaults write com.apple.finder AppleShowAllFiles true; killall Finder' # show hidden
 
