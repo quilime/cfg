@@ -43,6 +43,7 @@ noremap <Right> <Nop>
   - `d` - `d`elete. Like "ctrl-x - cut", puts text in clipboard
   - `y` - `y`ank. Like "ctrl-c - copy", puts text in clipbaord
   - `c` - `c`hange. Deletes (cuts) and enter Insert mode immediately
+  - `p` - `p`aste, like "ctrl-v", before the cursor. `P` for after the cursor.
 
 ## Normal Mode Commands
 
