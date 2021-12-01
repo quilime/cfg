@@ -1,3 +1,5 @@
 [user]
 	email = gdunne@quilime.com
 	name = Gabriel Dunne
+[init]
+	defaultBranch = main
