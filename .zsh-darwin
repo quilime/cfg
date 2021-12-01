@@ -31,3 +31,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # ruby
 export PATH="/Users/gld/.gem/ruby/3.0.0/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH"
+
+# LaTeX
+export PATH="/Library/TeX/texbin/latex:$PATH"
+
+
+
