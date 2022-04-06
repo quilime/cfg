@@ -1,5 +1,5 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    
+
     # if OSX
     if [[ -e ~/.zsh-darwin ]]; then
         source ~/.zsh-darwin
