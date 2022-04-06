@@ -1,6 +1,7 @@
 
 # prompt
-PROMPT='%F{cyan}%n@%m%f %F{240}%1~%f %# '
+# time: %F{magenta}%* 
+PROMPT='%F{cyan}%n@%m%f %F{240}%1~ %f%# '
 RPROMPT='%F{240}%*%f'
 
 # aliases
@@ -30,10 +31,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # ruby
-export PATH="/Users/gld/.gem/ruby/3.0.0/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH"
+export PATH="/Users/gld/.gem/ruby/3.1.1/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.1.1/bin:$PATH"
 
 # LaTeX
-export PATH="/Library/TeX/texbin/latex:$PATH"
-
-
+export PATH="/etc/paths.d/TeX:/Library/TeX/texbin:$PATH"
 
