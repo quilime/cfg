@@ -22,6 +22,11 @@ alias x86='arch -x86_64 zsh' # Start Shell in Rosetta 2 (M1 Macs)
 alias dl='yt-dlp'
 alias hf='defaults write com.apple.finder AppleShowAllFiles false; killall Finder' # hide hidden
 alias shf='defaults write com.apple.finder AppleShowAllFiles true; killall Finder' # show hidden
+alias cat='bat'
+
+# ncdu - directory size
+# fzf - fuzzy file search
+
 
 # if x86, show in prompt
 if [ `arch` = "i386" ];
