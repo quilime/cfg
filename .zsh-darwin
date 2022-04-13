@@ -23,6 +23,11 @@ alias dl='yt-dlp'
 alias hf='defaults write com.apple.finder AppleShowAllFiles false; killall Finder' # hide hidden
 alias shf='defaults write com.apple.finder AppleShowAllFiles true; killall Finder' # show hidden
 alias cat='bat'
+alias grep='grep --color'
+
+# Lima
+alias archlinux='limactl shell archlinux'
+alias ubuntu='limactl shell ubuntu'
 
 # ncdu - directory size
 # fzf - fuzzy file search
