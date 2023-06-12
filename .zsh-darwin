@@ -15,7 +15,6 @@ PROMPT='%F{cyan}%n@%m%f %F{240}%1~ %f%# '
 RPROMPT='%F{green}${vcs_info_msg_0_} %F{240}%*%f'
 
 # aliases
-alias cfg='/usr/bin/git --git-dir=/Users/gld/.cfg/ --work-tree=/Users/gld'
 alias ls='ls -G'
 alias cats='highlight -O ansi --force'
 alias x86='arch -x86_64 zsh' # Start Shell in Rosetta 2 (M1 Macs)
@@ -31,7 +30,6 @@ alias ubuntu='limactl shell ubuntu'
 
 # ncdu - directory size
 # fzf - fuzzy file search
-
 
 # if x86, show in prompt
 if [ `arch` = "i386" ];
@@ -50,9 +48,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# ruby
-export PATH="/Users/gld/.gem/ruby/3.1.1/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.1.1/bin:$PATH"
-
 # LaTeX
 export PATH="/etc/paths.d/TeX:/Library/TeX/texbin:$PATH"
-

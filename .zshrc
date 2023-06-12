@@ -1,6 +1,6 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
 
-    # if OSX
+    # OSX
     if [[ -e ~/.zsh-darwin ]]; then
         source ~/.zsh-darwin
     fi
@@ -8,7 +8,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 else
     
     # Linux or other
-    # Source zsh config
     if [[ -e ~/.zsh-config ]]; then
         source ~/.zsh-config
     fi
