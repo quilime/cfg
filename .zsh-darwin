@@ -21,7 +21,7 @@ alias x86='arch -x86_64 zsh' # Start Shell in Rosetta 2 (M1 Macs)
 alias dl='yt-dlp'
 alias hf='defaults write com.apple.finder AppleShowAllFiles false; killall Finder' # hide hidden
 alias shf='defaults write com.apple.finder AppleShowAllFiles true; killall Finder' # show hidden
-alias cat='bat'
+# alias cat='bat'
 alias grep='grep --color'
 
 # Lima
@@ -50,3 +50,23 @@ export NVM_DIR="$HOME/.nvm"
 
 # LaTeX
 export PATH="/etc/paths.d/TeX:/Library/TeX/texbin:$PATH"
+
+# ruby
+#export PATH="/Users/gld/.gem/ruby/3.1.1/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.1.1/bin:$PATH"
+export PATH="/Users/gld/.gem/ruby/3.1.0/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.1.0/bin:$PATH"
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.2 # run chruby to see actual version
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+
+# dotfiles
+alias cfg='/opt/homebrew/bin/git --git-dir=/Users/gld/.cfg/ --work-tree=/Users/gld'
+
+# more path
+export PATH="$HOME/.local/bin:$PATH"
+
+
+
+
+
