@@ -4,6 +4,9 @@ if command -v ls >/dev/null 2>&1; then
     alias ls='ls --color=auto'
 fi
 
+# Shared settings initialize completion before Linux-specific plugins load.
+source "$HOME/.zsh/common.zsh"
+
 if command -v fzf-tab >/dev/null 2>&1; then
     source "$(dirname "$(command -v fzf-tab)")/../share/fzf-tab/fzf-tab.zsh" 2>/dev/null
 fi

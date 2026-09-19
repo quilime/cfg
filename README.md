@@ -60,3 +60,5 @@ the path to the Git directory,  $HOME/.cfg/ for bare and $HOME/.cfg/.git/ for no
 - https://news.ycombinator.com/item?id=11070797
 - https://shapeshed.com/vim-netrw/#netrw---the-unloved-directory-browser
 - https://evanhahn.com/a-decade-of-dotfiles/
+- https://codeberg.org/EvanHahn/dotfiles
+

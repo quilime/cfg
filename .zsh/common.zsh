@@ -8,13 +8,6 @@ setopt share_history hist_ignore_all_dups hist_ignore_space hist_reduce_blanks e
 
 export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43'
 
-# Add Homebrew completion definitions without launching Homebrew at shell startup.
-if [[ -d /opt/homebrew/share/zsh/site-functions ]]; then
-    FPATH="/opt/homebrew/share/zsh/site-functions:${FPATH}"
-elif [[ -d /usr/local/share/zsh/site-functions ]]; then
-    FPATH="/usr/local/share/zsh/site-functions:${FPATH}"
-fi
-
 autoload -Uz compinit
 # Rebuild the completion cache only when it is more than 24 hours old.
 if [[ -n ~/.zcompdump(#qN.mh+24) ]]; then compinit; else compinit -C; fi
