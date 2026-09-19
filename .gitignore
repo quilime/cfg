@@ -1,1 +1,15 @@
+# Bare Git directory for this dotfiles repository.
 .cfg
+
+# Machine-local Zsh state; never synchronize learned paths or private aliases.
+.zsh/cd-smart.tsv
+.zsh/cd-smart.aliases
+.local/state/cd-smart.tsv
+
+# Optional machine- or work-specific shell settings.
+.zsh/local.zsh
+
+# Zsh-generated caches and command history.
+.zcompdump*
+.zsh/cache/
+.zsh_history
