@@ -8,5 +8,3 @@ else
     source "$HOME/.zsh/common.zsh"
 fi
 
-# optional local settings
-[[ -r "$HOME/.zsh/local.zsh" ]] && source "$HOME/.zsh/local.zsh"

@@ -6,9 +6,6 @@
 .zsh/cd-smart.aliases
 .local/state/cd-smart.tsv
 
-# Optional machine- or work-specific shell settings.
-.zsh/local.zsh
-
 # Zsh-generated caches and command history.
 .zcompdump*
 .zsh/cache/

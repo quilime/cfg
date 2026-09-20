@@ -1,10 +1,8 @@
 # Linux-specific Zsh settings
 
-if command -v ls >/dev/null 2>&1; then
-    alias ls='ls --color=auto'
-fi
+alias ls='ls --color=auto'
 
-# Shared settings initialize completion before Linux-specific plugins load.
+# shared settings initialize completion before plugins load.
 source "$HOME/.zsh/common.zsh"
 
 if command -v fzf-tab >/dev/null 2>&1; then
